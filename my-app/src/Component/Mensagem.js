@@ -66,7 +66,7 @@ class Mensagem extends React.Component {
       this.setState({ mensagens: newArray });
       this.setState({ mensagem: "", usuario: "" }); //Area para resetar o campo mensagem e nome
     } else {
-      alert("Por favor, preencha todos os campos!");
+      alert("Por favor, preencha todos os campos!!");
     }
   };
 
